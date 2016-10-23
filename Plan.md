@@ -1,8 +1,11 @@
-# Plans to do
+# Plan to do
+
 ----------------------------------------------------------
+
 * Classification (multivariate if possible) to predict vaccine use within 4.
 * Association analysis with Q12, Q13.
 * logisticPCA (SVD) on Q18 to find latent perception/beliefs. 
+
 ----------------------------------------------------------
 1.	Contact w/ Influenza 0utside of Home
 2.	Risk of Contracting Influenza
