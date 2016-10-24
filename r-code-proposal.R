@@ -20,6 +20,10 @@ histogram( ~ Q13 | Q19, data=subset(cdata, Q19 != "#NULL!"))
 histogram( ~ Q13 | Q20, data=subset(cdata, Q20 != "#NULL!"))
 histogram( ~ Q13 | Q21, data=subset(cdata, Q21 != "#NULL!"))
 
+pdf("age-sex.pdf", height = 6, width=8)
+densityplot(~PPAGE | PPGENDER)
+dev.off()
+
 ###############################################
 
 adata <- read.csv('association_data.csv')
